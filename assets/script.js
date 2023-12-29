@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
     $(window).blur(function () {
-        document.title = "stop hiding";
+        document.title = "stop running";
     });
 
     $(window).focus(function () {
