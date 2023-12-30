@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
     $('.enter>img').on('click', function () {
         var audio = new Audio('assets/song.mp3');
-        audio.volume = 0.2;
+        audio.volume = 0.3;
         audio.play();
         $('.enter').fadeOut(100);
     })
